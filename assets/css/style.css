@@ -4,6 +4,9 @@
 * {
     margin: 0;
 }
+body {
+    background-color: black;
+}
 
 header {
     background-color: black;
@@ -197,6 +200,88 @@ footer {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 1.2rem;
 }
+
+
+
+
+#about{
+    background-color: gray;
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-image: url("");
+    padding: 25px 0;
+}
+
+#about-us{
+    margin-left: 50%;
+    margin-bottom: 10px;
+    transform: translate(-50%);
+    width: 100px;
+    text-align: center;
+    color: black;
+}
+
+#about p{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    color: black;
+    width: 50vw;
+    line-height: 30px;
+    font-size: large;
+}
+
+#para1{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+#para2{
+    display: inline-block;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+#section1 > h2{
+    color: white;
+    /* border: 1px solid blue; */
+    width: 100px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#top{
+    background-color: black;
+    margin-top: 30px;
+}
+
+.cm p{
+    border: 1px solid gray;
+    width: 10%;
+    height: 20%;
+    color: white;
+    padding: 10px;
+}
+
+.div1 > p{
+    margin-left: 20%;
+}
+
+.div2 > p{
+    margin-left: 65%;
+}
+
+.div3 > p{
+    margin-left: 20%;
+}
+
+
+
 
 
 
